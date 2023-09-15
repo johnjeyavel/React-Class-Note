@@ -1,13 +1,25 @@
-import React from 'react';
-import MyContextProvider from './Components/MyContextProvider';
-import MyComponent from './Components/MyComponent';
+import React, {useRef} from 'react'
 
-function App() {
-  return (  
-    <MyContextProvider>
-      <MyComponent />
-    </MyContextProvider>
-  );
+const App = () => {
+ 
+const name = useRef(null)
+const password = useRef(null)
+
+const inpSubmit = (e) =>{
+e.preventDefault();
+console.log( password.current.value , name.current.value);
+
 }
 
-export default App;
+  return (
+    <div>
+      <form onSubmit={inpSubmit}>
+      <input type='text' ref={name}/>
+      <input type='password' ref={password}/>
+      <button type='submit'>submit</button>
+      </form>
+    </div>
+  )
+}
+
+export default App
