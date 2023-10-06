@@ -57,8 +57,7 @@ else if(BmiIs>24 && BmiIs<30){
 <a href='http://localhost:3000/TodoList'>
 <button  class="btn-success nextbtn">Next</button></a>
 
-
-    </div>
+   </div>
   )
 }
 
