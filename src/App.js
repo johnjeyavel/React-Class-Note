@@ -1,12 +1,13 @@
 
 
 import React from 'react';
-import BmiRouter from './Components/BmiRouter';
+
+import Mail from './Components/Mail';
 
 function App() {
   return (  
 <>  
-<BmiRouter/>
+<Mail/>
 </> 
   );
 }

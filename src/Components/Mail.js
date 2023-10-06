@@ -3,7 +3,7 @@ import React from 'react'
 const Mail = () => {
   return (
     <div>
-      <p>Mail</p>
+      <p>i am john</p>
     </div>
   )
 }
