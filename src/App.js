@@ -1,12 +1,12 @@
 
 
 import React from 'react';
-import TodoRouter from './Components/TodoClass';
+import BmiRouter from './Components/BmiRouter';
 
 function App() {
   return (  
 <>  
-<TodoRouter/>
+<BmiRouter/>
 </> 
   );
 }
