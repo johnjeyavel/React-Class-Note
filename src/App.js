@@ -1,13 +1,12 @@
 
 
 import React from 'react';
-
-import Mail from './Components/Mail';
+import Password1 from './Components/password';
 
 function App() {
   return (  
 <>  
-<Mail/>
+<Password1/>
 </> 
   );
 }

@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 
-const App = () => {
+const Password1 = () => {
  
 const name = useRef(null)
 const password = useRef(null)
@@ -22,5 +22,5 @@ console.log( password.current.value , name.current.value);
   )
 }
 
-export default App
+export default Password1
 
