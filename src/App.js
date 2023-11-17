@@ -1,12 +1,28 @@
+import React, { useState } from 'react';
+
+import { Route, Routes,Navigate} from 'react-router-dom';
+
+import Login from './EPM/Firebase/Login1';
+import Home from './EPM/Firebase/Home';
+import Register from './EPM/Firebase/Register1';
 
 
-import React from 'react';
-import Password1 from './Components/password';
 
 function App() {
+const[user,setUser]=useState("User")
+
   return (  
-<>  
-<Password1/>
+<> 
+
+
+<Routes>
+<Route path="/" element={<Home user={user} setUser={setUser}/>}/>
+<Route path="/login" element={<Login user={user} setUser={setUser}/>}/>
+<Route path="/register" element={<Register/>}/>
+<Route path="*" element={<Navigate to="/"/>}/>
+</Routes>
+
+
 </> 
   );
 }

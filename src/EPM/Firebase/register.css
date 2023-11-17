@@ -1,0 +1,24 @@
+.body1{
+    animation-name:animate;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes animate{
+0% {
+    opacity:0;
+transform: translateY(-100px);
+}
+
+20% {
+    opacity:1;
+transform: translateY(100px);
+}
+} 
+
+@media screen and (max-width:900px){
+    .body1{
+     width:max-content;
+ }
+
+}

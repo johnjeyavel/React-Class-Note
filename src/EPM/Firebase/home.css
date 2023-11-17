@@ -1,0 +1,58 @@
+.home{
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 2px #555;
+    padding: 1% ;
+    font-weight: bolder;
+    margin-left:93%;
+    text-decoration: none;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+.card1{
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 2px 3px 4px 2px #555; 
+}
+
+.textshadow{
+    text-shadow: 5px 5px 5KOKOpx  #555; 
+}
+
+.boxshadow{
+    box-shadow: 2px 3px 4px 2px #555; 
+}
+
+.blue{
+    color:blue;
+}
+
+.body1{
+    animation-name:animate;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}
+
+@keyframes animate{
+0% {
+    opacity:0;
+transform: translateY(-100px);
+}
+
+20% {
+    opacity:1;
+transform: translateY(100px);
+}
+} 
+
+@media screen and (max-width:900px){
+    .body1{
+     width:max-content;
+ }
+
+}
+
+/* body{
+    background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_387242.jpg");
+
+} */
